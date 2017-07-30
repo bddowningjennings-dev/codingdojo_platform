@@ -1,0 +1,13 @@
+create local dir - mkdir basic_repo
+git init
+code .
+create info.txt
+git add .
+create git repo on github
+git commit -m "added info.txt"
+add remote - git remote add origin https://github.com/bddowningjennings-dev/basic_repo.git
+git commit -m "modified info.txt"
+push to the remote repo - git push -u origin master
+save info.txt again
+commit for the last time
+git push

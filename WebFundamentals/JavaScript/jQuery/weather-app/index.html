@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>weather app</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.js"
+			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			  crossorigin="anonymous"></script>
+    <script>
+      var url_start = "http://api.openweathermap.org/data/2.5/weather?q="
+      var url_end= "&APPID=e1066ce2da4616550b406f1a764ab6a5"
+      $(document).ready(function() {
+          $('form').submit(function() {
+              // your code here (build up your url)
+              var url = url_start + $('#city').val() + url_end;
+              $.getJSON(url, function(res) {
+                  // your code here
+                  $('body').append("<p>The temperature for " + res.name + " is " + (res.main.temp * 9 / 5 - 459.67).toFixed(2 + "</p>"));
+              });
+              // don't forget to return false so the page doesn't refresh
+              return false;
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <form action="#">
+      <label for="city">Please enter the City:</label>
+      <input type="text" id="city" placeholder="Is Texas a city?">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

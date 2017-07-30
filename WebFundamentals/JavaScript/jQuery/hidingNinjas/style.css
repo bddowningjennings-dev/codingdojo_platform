@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  background-color: mediumaquamarine;
+  width: 800px;
+  height: 600px;
+  padding: 20px 80px;
+}
+a.btn {
+  margin-bottom: 80px;
+  text-align: center;
+  background-color: whitesmoke;
+  color: teal;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  padding-top: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}

@@ -1,0 +1,140 @@
+body {
+  white-space: nowrap;
+}
+* {
+   /* outline: 1px dashed red;   */
+  font-family:  Arial, Helvetica, sans-serif;   
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: aquamarine;
+  width: 970px;
+  display: inline-block;
+  white-space: normal;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid lightgray;
+}
+h2 {
+  background-color: grey;
+  color: white;
+  padding: 8px;
+  font-size: 20px;
+}
+p {
+  padding: 8px;
+}
+a {
+  color: black;
+  vertical-align: top;
+}
+.main-content {
+  /* background-color: purple; */  
+  background-image: radial-gradient(#6F5963 40%, #1e0e12 100%);
+  height: 895px;
+}
+.header {
+  background-color: #f9f9f9;
+  font-size: 20px;
+  font-weight: bold; 
+  padding: 1.5px 25px;
+}
+.left {
+  vertical-align: middle;
+  display: inline-block;
+  width: 530px;
+  text-align: left;
+  font-family: "Comic Sans MS", cursive, sans-serif; 
+  font-size: 32px;
+  font-weight: bold;
+}
+.photo-self {
+  width: 400px;
+}
+.box {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+.box.info {
+  width: 285px;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+  margin-left: 25px;
+  margin-right: 0;
+}
+.box.about {
+  width: 480px;
+  height: 275px;
+  background-color: white;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.footer > p {
+  text-align: center;
+  background-color: white;
+  font-size: 16px;
+}
+.footer > p > a {
+  font-style: italic;
+  background-color: #f9f9f9;
+  background-color: ;
+}
+.grad {
+  background: -webkit-linear-gradient(darkgray, gray, darkgray);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(darkgray, gray, darkgray); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.img-social {
+  width: 20px;
+  border: none;
+}
+.img-tech {
+  width: 40px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+ .info-content {
+  width: 285px;
+  height: 315px;
+  display: inline-block;
+  vertical-align: top;
+  background: -webkit-linear-gradient(left, white, lightgray);
+  font-size: 14px;
+  text-align: justify;
+} 
+.tech-info {
+  width: 285px;
+  height: 165px;
+  display: inline-block;
+  vertical-align: top;
+   background: -webkit-linear-gradient(left, white, lightgray);
+} 
+.test {
+  display: inline-block;
+  vertical-align: top;
+  border: none;
+}
+.tech {
+  font-size: 16px;
+}
+.noborder {
+  border: none;
+}
+button {
+  display: block;
+  margin: 10px auto;
+  color: white;
+  background-color: #407d61;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px #888888;
+}

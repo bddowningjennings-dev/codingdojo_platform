@@ -1,0 +1,1 @@
+Recreation of static JavaScript Basics site

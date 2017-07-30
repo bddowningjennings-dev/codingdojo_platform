@@ -1,0 +1,21 @@
+var num1 = 4;
+var num2 = 0.501;
+var num3 = -19;
+var num4 = Math.sqrt(2);
+var str1 = "test";
+var str2 = "Hello World!";
+var str3 = "last string";
+var bool1 = true;
+var bool0 = false;
+var undef = undefined;
+
+console.log("The first number:", num1);
+console.log("The second number:", num2);
+console.log("The third number:", num3);
+console.log("The last number:", num4);
+console.log("The first string:", str1);
+console.log("The second string:", str2);
+console.log("The last string:", str3);
+console.log("The first boolean:", bool1);
+console.log("The second boolean:", bool0);
+console.log("An undefined variable:", undef);

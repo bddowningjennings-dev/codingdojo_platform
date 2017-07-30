@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px dashed red; */
+}
+.wrapper {
+  background-color: mediumaquamarine;
+  width: 1500px;
+  height: 900px;
+}
+thead {
+  background-color: teal;
+  color: whitesmoke;
+}
+table {
+  display: inline-block;
+  vertical-align: top;
+  width: 970px;
+}
+th {
+  padding: 5px 65px;
+}
+input {
+  display: inline-block;
+  text-align: right;
+  margin: 5px 0;
+}
+form p {
+  color: whitesmoke;
+  width: 250px;
+}
+form label {
+  padding: 2px 15px;
+  display: inline-block;
+  background-color: teal;
+  color: whitesmoke;
+  width: 150px;
+}
+form {
+  color: teal;
+  background-color: mediumaquamarine;
+  vertical-align: top;
+  text-align: right;
+  display: inline-block;
+}
+p.user-form  {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-bottom: 5px solid teal;
+}

@@ -1,0 +1,1 @@
+recreate the static Internet website from template image

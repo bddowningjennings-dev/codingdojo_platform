@@ -1,0 +1,870 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:" content="urn:uuid:e187cd62-ac31-403f-b49e-f8332a006482" />
+    <meta name="dtb:generator" content="EPUBLib version 3.0" />
+    <meta name="dtb:depth" content="2" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+  </head>
+  <docTitle>
+    <text>Algorithm Challenges: E-book for Dojo Students</text>
+  </docTitle>
+  <docAuthor>
+    <text>Puryear, Martin</text>
+  </docAuthor>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>Algorithms_Collection</text>
+      </navLabel>
+      <content src="item_172.html" />
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2" class="chapter">
+      <navLabel>
+        <text>Chapter 0 – Foundation Concepts</text>
+      </navLabel>
+      <content src="item_136.html#navPoint_1" />
+      <navPoint id="navPoint-3" playOrder="3" class="chapter">
+        <navLabel>
+          <text>Computers, Software, and Source Code</text>
+        </navLabel>
+        <content src="item_139.html#navPoint_2" />
+      </navPoint>
+      <navPoint id="navPoint-4" playOrder="4" class="chapter">
+        <navLabel>
+          <text>Code Flow</text>
+        </navLabel>
+        <content src="item_162.html#navPoint_3" />
+      </navPoint>
+      <navPoint id="navPoint-5" playOrder="5" class="chapter">
+        <navLabel>
+          <text>Variables</text>
+        </navLabel>
+        <content src="item_161.html#navPoint_4" />
+      </navPoint>
+      <navPoint id="navPoint-6" playOrder="6" class="chapter">
+        <navLabel>
+          <text>Data Types</text>
+        </navLabel>
+        <content src="item_071.html#navPoint_5" />
+      </navPoint>
+      <navPoint id="navPoint-7" playOrder="7" class="chapter">
+        <navLabel>
+          <text>Not All Equals Signs Are the Same!</text>
+        </navLabel>
+        <content src="item_175.html#navPoint_6" />
+      </navPoint>
+      <navPoint id="navPoint-8" playOrder="8" class="chapter">
+        <navLabel>
+          <text>Printing to the Console</text>
+        </navLabel>
+        <content src="item_171.html#navPoint_7" />
+      </navPoint>
+      <navPoint id="navPoint-9" playOrder="9" class="chapter">
+        <navLabel>
+          <text>Functions</text>
+        </navLabel>
+        <content src="item_036.html#navPoint_8" />
+      </navPoint>
+      <navPoint id="navPoint-10" playOrder="10" class="chapter">
+        <navLabel>
+          <text>Conditionals</text>
+        </navLabel>
+        <content src="item_142.html#navPoint_9" />
+      </navPoint>
+      <navPoint id="navPoint-11" playOrder="11" class="chapter">
+        <navLabel>
+          <text>Complex Conditionals</text>
+        </navLabel>
+        <content src="item_103.html#navPoint_10" />
+      </navPoint>
+      <navPoint id="navPoint-12" playOrder="12" class="chapter">
+        <navLabel>
+          <text>Chaining and Nesting</text>
+        </navLabel>
+        <content src="item_052.html#navPoint_11" />
+      </navPoint>
+      <navPoint id="navPoint-13" playOrder="13" class="chapter">
+        <navLabel>
+          <text>Loops</text>
+        </navLabel>
+        <content src="item_057.html#navPoint_12" />
+      </navPoint>
+      <navPoint id="navPoint-14" playOrder="14" class="chapter">
+        <navLabel>
+          <text>FOR Loops</text>
+        </navLabel>
+        <content src="item_069.html#navPoint_13" />
+      </navPoint>
+      <navPoint id="navPoint-15" playOrder="15" class="chapter">
+        <navLabel>
+          <text>WHILE Loops</text>
+        </navLabel>
+        <content src="item_062.html#navPoint_14" />
+      </navPoint>
+      <navPoint id="navPoint-16" playOrder="16" class="chapter">
+        <navLabel>
+          <text>Other Loop Tips</text>
+        </navLabel>
+        <content src="item_072.html#navPoint_15" />
+      </navPoint>
+      <navPoint id="navPoint-17" playOrder="17" class="chapter">
+        <navLabel>
+          <text>Loops and Code Flow</text>
+        </navLabel>
+        <content src="item_096.html#navPoint_16" />
+      </navPoint>
+      <navPoint id="navPoint-18" playOrder="18" class="chapter">
+        <navLabel>
+          <text>Parameters</text>
+        </navLabel>
+        <content src="item_101.html#navPoint_17" />
+      </navPoint>
+      <navPoint id="navPoint-19" playOrder="19" class="chapter">
+        <navLabel>
+          <text>Foundations Review</text>
+        </navLabel>
+        <content src="item_087.html#navPoint_18" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-20" playOrder="20" class="chapter">
+      <navLabel>
+        <text>Chapter 1 – Fundamentals</text>
+      </navLabel>
+      <content src="item_097.html#navPoint_19" />
+      <navPoint id="navPoint-21" playOrder="21" class="chapter">
+        <navLabel>
+          <text>Return Values</text>
+        </navLabel>
+        <content src="item_132.html#navPoint_20" />
+      </navPoint>
+      <navPoint id="navPoint-22" playOrder="22" class="chapter">
+        <navLabel>
+          <text>Arrays</text>
+        </navLabel>
+        <content src="item_102.html#navPoint_21" />
+      </navPoint>
+      <navPoint id="navPoint-23" playOrder="23" class="chapter">
+        <navLabel>
+          <text>Writing Values into Arrays</text>
+        </navLabel>
+        <content src="item_019.html#navPoint_22" />
+      </navPoint>
+      <navPoint id="navPoint-24" playOrder="24" class="chapter">
+        <navLabel>
+          <text>Combining Arrays and FOR Loops</text>
+        </navLabel>
+        <content src="item_061.html#navPoint_23" />
+      </navPoint>
+      <navPoint id="navPoint-25" playOrder="25" class="chapter">
+        <navLabel>
+          <text>Using a T-Diagram</text>
+        </navLabel>
+        <content src="item_043.html#navPoint_24" />
+      </navPoint>
+      <navPoint id="navPoint-26" playOrder="26" class="chapter">
+        <navLabel>
+          <text>Comments</text>
+        </navLabel>
+        <content src="item_110.html#navPoint_25" />
+      </navPoint>
+      <navPoint id="navPoint-27" playOrder="27" class="chapter">
+        <navLabel>
+          <text>Fundamentals Review</text>
+        </navLabel>
+        <content src="item_160.html#navPoint_26" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-28" playOrder="28" class="chapter">
+      <navLabel>
+        <text>The “Basic 13”</text>
+      </navLabel>
+      <content src="item_169.html#navPoint_27" />
+    </navPoint>
+    <navPoint id="navPoint-29" playOrder="29" class="chapter">
+      <navLabel>
+        <text>Chapter 2 – Fundamentals, Part II</text>
+      </navLabel>
+      <content src="item_016.html#navPoint_28" />
+      <navPoint id="navPoint-30" playOrder="30" class="chapter">
+        <navLabel>
+          <text>Modulo Operator</text>
+        </navLabel>
+        <content src="item_091.html#navPoint_29" />
+      </navPoint>
+      <navPoint id="navPoint-31" playOrder="31" class="chapter">
+        <navLabel>
+          <text>Math Library</text>
+        </navLabel>
+        <content src="item_100.html#navPoint_30" />
+      </navPoint>
+      <navPoint id="navPoint-32" playOrder="32" class="chapter">
+        <navLabel>
+          <text>Using Modulo to Extract a Digit</text>
+        </navLabel>
+        <content src="item_063.html#navPoint_31" />
+      </navPoint>
+      <navPoint id="navPoint-33" playOrder="33" class="chapter">
+        <navLabel>
+          <text>Variables that Live Longer than a Single Function Call</text>
+        </navLabel>
+        <content src="item_021.html#navPoint_32" />
+      </navPoint>
+      <navPoint id="navPoint-34" playOrder="34" class="chapter">
+        <navLabel>
+          <text>Fundamentals Part II Review</text>
+        </navLabel>
+        <content src="item_099.html#navPoint_33" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-35" playOrder="35" class="chapter">
+      <navLabel>
+        <text>Solving Whiteboard Problems (RIOT WALK)</text>
+      </navLabel>
+      <content src="item_066.html#navPoint_34" />
+    </navPoint>
+    <navPoint id="navPoint-36" playOrder="36" class="chapter">
+      <navLabel>
+        <text>Chapter 3 – Arrays</text>
+      </navLabel>
+      <content src="item_090.html#navPoint_35" />
+      <navPoint id="navPoint-37" playOrder="37" class="chapter">
+        <navLabel>
+          <text>Array.length</text>
+        </navLabel>
+        <content src="item_023.html#navPoint_36" />
+      </navPoint>
+      <navPoint id="navPoint-38" playOrder="38" class="chapter">
+        <navLabel>
+          <text>Passing By Reference</text>
+        </navLabel>
+        <content src="item_011.html#navPoint_37" />
+      </navPoint>
+      <navPoint id="navPoint-39" playOrder="39" class="chapter">
+        <navLabel>
+          <text>Another T-Diagram (Loops)</text>
+        </navLabel>
+        <content src="item_007.html#navPoint_38" />
+      </navPoint>
+      <navPoint id="navPoint-40" playOrder="40" class="chapter">
+        <navLabel>
+          <text>“Truthy” and “Falsy”</text>
+        </navLabel>
+        <content src="item_118.html#navPoint_39" />
+      </navPoint>
+      <navPoint id="navPoint-41" playOrder="41" class="chapter">
+        <navLabel>
+          <text>Arrays Review</text>
+        </navLabel>
+        <content src="item_155.html#navPoint_40" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-42" playOrder="42" class="chapter">
+      <navLabel>
+        <text>“Basic 13” Review</text>
+      </navLabel>
+      <content src="item_115.html#navPoint_41" />
+    </navPoint>
+    <navPoint id="navPoint-43" playOrder="43" class="chapter">
+      <navLabel>
+        <text>Chapter 4 – Strings and Associative Arrays</text>
+      </navLabel>
+      <content src="item_032.html#navPoint_42" />
+      <navPoint id="navPoint-44" playOrder="44" class="chapter">
+        <navLabel>
+          <text>More About Strings</text>
+        </navLabel>
+        <content src="item_006.html#navPoint_43" />
+      </navPoint>
+      <navPoint id="navPoint-45" playOrder="45" class="chapter">
+        <navLabel>
+          <text>Switch/case statements</text>
+        </navLabel>
+        <content src="item_042.html#navPoint_44" />
+      </navPoint>
+      <navPoint id="navPoint-46" playOrder="46" class="chapter">
+        <navLabel>
+          <text>Fast-Finish / Fast-Fail</text>
+        </navLabel>
+        <content src="item_106.html#navPoint_45" />
+      </navPoint>
+      <navPoint id="navPoint-47" playOrder="47" class="chapter">
+        <navLabel>
+          <text>Associative Arrays (Objects)</text>
+        </navLabel>
+        <content src="item_051.html#navPoint_46" />
+      </navPoint>
+      <navPoint id="navPoint-48" playOrder="48" class="chapter">
+        <navLabel>
+          <text>FOR … IN Loops</text>
+        </navLabel>
+        <content src="item_085.html#navPoint_47" />
+      </navPoint>
+      <navPoint id="navPoint-49" playOrder="49" class="chapter">
+        <navLabel>
+          <text>Why Don’t We Allow Built-In Functions?</text>
+        </navLabel>
+        <content src="item_166.html#navPoint_48" />
+      </navPoint>
+      <navPoint id="navPoint-50" playOrder="50" class="chapter">
+        <navLabel>
+          <text>Strings and Associative Arrays Review</text>
+        </navLabel>
+        <content src="item_125.html#navPoint_49" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-51" playOrder="51" class="chapter">
+      <navLabel>
+        <text>Debugging Your JavaScript Code</text>
+      </navLabel>
+      <content src="item_005.html#navPoint_50" />
+    </navPoint>
+    <navPoint id="navPoint-52" playOrder="52" class="chapter">
+      <navLabel>
+        <text>Chapter 5 – Linked Lists</text>
+      </navLabel>
+      <content src="item_176.html#navPoint_51" />
+      <navPoint id="navPoint-53" playOrder="53" class="chapter">
+        <navLabel>
+          <text>Objects and Classes</text>
+        </navLabel>
+        <content src="item_112.html#navPoint_52" />
+      </navPoint>
+      <navPoint id="navPoint-54" playOrder="54" class="chapter">
+        <navLabel>
+          <text>Linked Lists</text>
+        </navLabel>
+        <content src="item_055.html#navPoint_53" />
+      </navPoint>
+      <navPoint id="navPoint-55" playOrder="55" class="chapter">
+        <navLabel>
+          <text>Prompts</text>
+        </navLabel>
+        <content src="item_093.html#navPoint_54" />
+      </navPoint>
+      <navPoint id="navPoint-56" playOrder="56" class="chapter">
+        <navLabel>
+          <text>Alerts</text>
+        </navLabel>
+        <content src="item_077.html#navPoint_55" />
+      </navPoint>
+      <navPoint id="navPoint-57" playOrder="57" class="chapter">
+        <navLabel>
+          <text>Write Understandable Code!</text>
+        </navLabel>
+        <content src="item_024.html#navPoint_56" />
+      </navPoint>
+      <navPoint id="navPoint-58" playOrder="58" class="chapter">
+        <navLabel>
+          <text>Linked Lists Review</text>
+        </navLabel>
+        <content src="item_003.html#navPoint_57" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-59" playOrder="59" class="chapter">
+      <navLabel>
+        <text>The “Buggy 13” (#1)</text>
+      </navLabel>
+      <content src="item_156.html#navPoint_58" />
+    </navPoint>
+    <navPoint id="navPoint-60" playOrder="60" class="chapter">
+      <navLabel>
+        <text>Chapter 6 – Queues and Stacks</text>
+      </navLabel>
+      <content src="item_086.html#navPoint_59" />
+      <navPoint id="navPoint-61" playOrder="61" class="chapter">
+        <navLabel>
+          <text>Queues</text>
+        </navLabel>
+        <content src="item_126.html#navPoint_60" />
+      </navPoint>
+      <navPoint id="navPoint-62" playOrder="62" class="chapter">
+        <navLabel>
+          <text>Stacks</text>
+        </navLabel>
+        <content src="item_026.html#navPoint_61" />
+      </navPoint>
+      <navPoint id="navPoint-63" playOrder="63" class="chapter">
+        <navLabel>
+          <text>Circular Queues</text>
+        </navLabel>
+        <content src="item_150.html#navPoint_62" />
+      </navPoint>
+      <navPoint id="navPoint-64" playOrder="64" class="chapter">
+        <navLabel>
+          <text>Queues and Stacks Review</text>
+        </navLabel>
+        <content src="item_138.html#navPoint_63" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-65" playOrder="65" class="chapter">
+      <navLabel>
+        <text>Chapter 7 – Arrays, Part II</text>
+      </navLabel>
+      <content src="item_140.html#navPoint_64" />
+      <navPoint id="navPoint-66" playOrder="66" class="chapter">
+        <navLabel>
+          <text>Test-Driven Development</text>
+        </navLabel>
+        <content src="item_146.html#navPoint_65" />
+      </navPoint>
+      <navPoint id="navPoint-67" playOrder="67" class="chapter">
+        <navLabel>
+          <text>Divide and Conquer</text>
+        </navLabel>
+        <content src="item_170.html#navPoint_66" />
+      </navPoint>
+      <navPoint id="navPoint-68" playOrder="68" class="chapter">
+        <navLabel>
+          <text>Time-Space Tradeoff</text>
+        </navLabel>
+        <content src="item_107.html#navPoint_67" />
+      </navPoint>
+      <navPoint id="navPoint-69" playOrder="69" class="chapter">
+        <navLabel>
+          <text>Data Sufficiency</text>
+        </navLabel>
+        <content src="item_010.html#navPoint_68" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-70" playOrder="70" class="chapter">
+      <navLabel>
+        <text>The “Bugful 13” (#2)</text>
+      </navLabel>
+      <content src="item_108.html#navPoint_69" />
+    </navPoint>
+    <navPoint id="navPoint-71" playOrder="71" class="chapter">
+      <navLabel>
+        <text>Chapter 8 – Linked Lists, Part II</text>
+      </navLabel>
+      <content src="item_163.html#navPoint_70" />
+      <navPoint id="navPoint-72" playOrder="72" class="chapter">
+        <navLabel>
+          <text>Runners and Linked List Iterators</text>
+        </navLabel>
+        <content src="item_041.html#navPoint_71" />
+      </navPoint>
+      <navPoint id="navPoint-73" playOrder="73" class="chapter">
+        <navLabel>
+          <text>Doubly Linked List</text>
+        </navLabel>
+        <content src="item_074.html#navPoint_72" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-74" playOrder="74" class="chapter">
+      <navLabel>
+        <text>Chapter 9 – Recursion</text>
+      </navLabel>
+      <content src="item_143.html#navPoint_73" />
+      <navPoint id="navPoint-75" playOrder="75" class="chapter">
+        <navLabel>
+          <text>Three requirements for effective recursion</text>
+        </navLabel>
+        <content src="item_049.html#navPoint_74" />
+      </navPoint>
+      <navPoint id="navPoint-76" playOrder="76" class="chapter">
+        <navLabel>
+          <text>T-Diagrams and Recursion</text>
+        </navLabel>
+        <content src="item_033.html#navPoint_75" />
+      </navPoint>
+      <navPoint id="navPoint-77" playOrder="77" class="chapter">
+        <navLabel>
+          <text>Dynamic Programming and Memoization</text>
+        </navLabel>
+        <content src="item_088.html#navPoint_76" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-78" playOrder="78" class="chapter">
+      <navLabel>
+        <text>Chapter 10 – Strings, Part II</text>
+      </navLabel>
+      <content src="item_152.html#navPoint_77" />
+    </navPoint>
+    <navPoint id="navPoint-79" playOrder="79" class="chapter">
+      <navLabel>
+        <text>The “Bug-Laden 13” (#3)</text>
+      </navLabel>
+      <content src="item_104.html#navPoint_78" />
+    </navPoint>
+    <navPoint id="navPoint-80" playOrder="80" class="chapter">
+      <navLabel>
+        <text>Chapter 11 – Trees</text>
+      </navLabel>
+      <content src="item_094.html#navPoint_79" />
+      <navPoint id="navPoint-81" playOrder="81" class="chapter">
+        <navLabel>
+          <text>Binary Tree Depth</text>
+        </navLabel>
+        <content src="item_114.html#navPoint_80" />
+      </navPoint>
+      <navPoint id="navPoint-82" playOrder="82" class="chapter">
+        <navLabel>
+          <text>Binary Search Tree Traversal</text>
+        </navLabel>
+        <content src="item_123.html#navPoint_81" />
+      </navPoint>
+      <navPoint id="navPoint-83" playOrder="83" class="chapter">
+        <navLabel>
+          <text>Self-Instantiating Classes</text>
+        </navLabel>
+        <content src="item_159.html#navPoint_82" />
+      </navPoint>
+      <navPoint id="navPoint-84" playOrder="84" class="chapter">
+        <navLabel>
+          <text>Making BST a Fully Navigable Data Structure</text>
+        </navLabel>
+        <content src="item_134.html#navPoint_83" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-85" playOrder="85" class="chapter">
+      <navLabel>
+        <text>Chapter 12 – Sorts</text>
+      </navLabel>
+      <content src="item_174.html#navPoint_84" />
+      <navPoint id="navPoint-86" playOrder="86" class="chapter">
+        <navLabel>
+          <text>Big-O Notation</text>
+        </navLabel>
+        <content src="item_028.html#navPoint_85" />
+      </navPoint>
+      <navPoint id="navPoint-87" playOrder="87" class="chapter">
+        <navLabel>
+          <text>Adaptivity</text>
+        </navLabel>
+        <content src="item_151.html#navPoint_86" />
+      </navPoint>
+      <navPoint id="navPoint-88" playOrder="88" class="chapter">
+        <navLabel>
+          <text>Stability</text>
+        </navLabel>
+        <content src="item_095.html#navPoint_87" />
+      </navPoint>
+      <navPoint id="navPoint-89" playOrder="89" class="chapter">
+        <navLabel>
+          <text>Memory Analysis</text>
+        </navLabel>
+        <content src="item_116.html#navPoint_88" />
+      </navPoint>
+      <navPoint id="navPoint-90" playOrder="90" class="chapter">
+        <navLabel>
+          <text>Sorting Review</text>
+        </navLabel>
+        <content src="item_158.html#navPoint_89" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-91" playOrder="91" class="chapter">
+      <navLabel>
+        <text>The “Bug-Infested 13” (#4)</text>
+      </navLabel>
+      <content src="item_075.html#navPoint_90" />
+    </navPoint>
+    <navPoint id="navPoint-92" playOrder="92" class="chapter">
+      <navLabel>
+        <text>Chapter 13 – Sets and Priority Queues</text>
+      </navLabel>
+      <content src="item_167.html#navPoint_91" />
+      <navPoint id="navPoint-93" playOrder="93" class="chapter">
+        <navLabel>
+          <text>Sets and Multisets</text>
+        </navLabel>
+        <content src="item_105.html#navPoint_92" />
+      </navPoint>
+      <navPoint id="navPoint-94" playOrder="94" class="chapter">
+        <navLabel>
+          <text>Set Operations</text>
+        </navLabel>
+        <content src="item_137.html#navPoint_93" />
+      </navPoint>
+      <navPoint id="navPoint-95" playOrder="95" class="chapter">
+        <navLabel>
+          <text>Set Theory Recap</text>
+        </navLabel>
+        <content src="item_164.html#navPoint_94" />
+      </navPoint>
+      <navPoint id="navPoint-96" playOrder="96" class="chapter">
+        <navLabel>
+          <text>Priority Queues</text>
+        </navLabel>
+        <content src="item_157.html#navPoint_95" />
+      </navPoint>
+      <navPoint id="navPoint-97" playOrder="97" class="chapter">
+        <navLabel>
+          <text>Heap Data Structure</text>
+        </navLabel>
+        <content src="item_050.html#navPoint_96" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-98" playOrder="98" class="chapter">
+      <navLabel>
+        <text>Chapter 14 – Hashes</text>
+      </navLabel>
+      <content src="item_121.html#navPoint_97" />
+      <navPoint id="navPoint-99" playOrder="99" class="chapter">
+        <navLabel>
+          <text>Hash Collisions</text>
+        </navLabel>
+        <content src="item_076.html#navPoint_98" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-100" playOrder="100" class="chapter">
+      <navLabel>
+        <text>Chapter 15 – Trees, Part II</text>
+      </navLabel>
+      <content src="item_002.html#navPoint_99" />
+      <navPoint id="navPoint-101" playOrder="101" class="chapter">
+        <navLabel>
+          <text>Full Trees and Complete Trees</text>
+        </navLabel>
+        <content src="item_053.html#navPoint_100" />
+      </navPoint>
+      <navPoint id="navPoint-102" playOrder="102" class="chapter">
+        <navLabel>
+          <text>Repairing a Binary Search Tree</text>
+        </navLabel>
+        <content src="item_060.html#navPoint_101" />
+      </navPoint>
+      <navPoint id="navPoint-103" playOrder="103" class="chapter">
+        <navLabel>
+          <text>BST Partitioning</text>
+        </navLabel>
+        <content src="item_117.html#navPoint_102" />
+      </navPoint>
+      <navPoint id="navPoint-104" playOrder="104" class="chapter">
+        <navLabel>
+          <text>Repairing a More Complex Binary Search Tree</text>
+        </navLabel>
+        <content src="item_131.html#navPoint_103" />
+      </navPoint>
+      <navPoint id="navPoint-105" playOrder="105" class="chapter">
+        <navLabel>
+          <text>Breadth-First Search</text>
+        </navLabel>
+        <content src="item_168.html#navPoint_104" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-106" playOrder="106" class="chapter">
+      <navLabel>
+        <text>Chapter 16 – Tries</text>
+      </navLabel>
+      <content src="item_059.html#navPoint_105" />
+      <navPoint id="navPoint-107" playOrder="107" class="chapter">
+        <navLabel>
+          <text>Trie Data Structure</text>
+        </navLabel>
+        <content src="item_165.html#navPoint_106" />
+      </navPoint>
+      <navPoint id="navPoint-108" playOrder="108" class="chapter">
+        <navLabel>
+          <text>Trie MultiSet</text>
+        </navLabel>
+        <content src="item_014.html#navPoint_107" />
+      </navPoint>
+      <navPoint id="navPoint-109" playOrder="109" class="chapter">
+        <navLabel>
+          <text>Trie Map</text>
+        </navLabel>
+        <content src="item_008.html#navPoint_108" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-110" playOrder="110" class="chapter">
+      <navLabel>
+        <text>Chapter 17 – Graphs</text>
+      </navLabel>
+      <content src="item_147.html#navPoint_109" />
+      <navPoint id="navPoint-111" playOrder="111" class="chapter">
+        <navLabel>
+          <text>Graph Terms</text>
+        </navLabel>
+        <content src="item_065.html#navPoint_110" />
+      </navPoint>
+      <navPoint id="navPoint-112" playOrder="112" class="chapter">
+        <navLabel>
+          <text>Representing Graphs</text>
+        </navLabel>
+        <content src="item_130.html#navPoint_111" />
+      </navPoint>
+      <navPoint id="navPoint-113" playOrder="113" class="chapter">
+        <navLabel>
+          <text>Edge List</text>
+        </navLabel>
+        <content src="item_058.html#navPoint_112" />
+      </navPoint>
+      <navPoint id="navPoint-114" playOrder="114" class="chapter">
+        <navLabel>
+          <text>Adjacency Map</text>
+        </navLabel>
+        <content src="item_027.html#navPoint_113" />
+      </navPoint>
+      <navPoint id="navPoint-115" playOrder="115" class="chapter">
+        <navLabel>
+          <text>Adjacency List</text>
+        </navLabel>
+        <content src="item_082.html#navPoint_114" />
+      </navPoint>
+      <navPoint id="navPoint-116" playOrder="116" class="chapter">
+        <navLabel>
+          <text>Directed and Undirected Graphs</text>
+        </navLabel>
+        <content src="item_120.html#navPoint_115" />
+      </navPoint>
+      <navPoint id="navPoint-117" playOrder="117" class="chapter">
+        <navLabel>
+          <text>Edges Have Weight</text>
+        </navLabel>
+        <content src="item_022.html#navPoint_116" />
+      </navPoint>
+      <navPoint id="navPoint-118" playOrder="118" class="chapter">
+        <navLabel>
+          <text>Depth-First Search</text>
+        </navLabel>
+        <content src="item_145.html#navPoint_117" />
+      </navPoint>
+      <navPoint id="navPoint-119" playOrder="119" class="chapter">
+        <navLabel>
+          <text>Breadth-First Search</text>
+        </navLabel>
+        <content src="item_017.html#navPoint_118" />
+      </navPoint>
+      <navPoint id="navPoint-120" playOrder="120" class="chapter">
+        <navLabel>
+          <text>Directed Acyclic Graphs</text>
+        </navLabel>
+        <content src="item_119.html#navPoint_119" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-121" playOrder="121" class="chapter">
+      <navLabel>
+        <text>Chapter 18 – Bit Arithmetic</text>
+      </navLabel>
+      <content src="item_084.html#navPoint_120" />
+      <navPoint id="navPoint-122" playOrder="122" class="chapter">
+        <navLabel>
+          <text>Numerical Systems</text>
+        </navLabel>
+        <content src="item_079.html#navPoint_121" />
+      </navPoint>
+      <navPoint id="navPoint-123" playOrder="123" class="chapter">
+        <navLabel>
+          <text>Octal System</text>
+        </navLabel>
+        <content src="item_129.html#navPoint_122" />
+      </navPoint>
+      <navPoint id="navPoint-124" playOrder="124" class="chapter">
+        <navLabel>
+          <text>Hexadecimal System</text>
+        </navLabel>
+        <content src="item_109.html#navPoint_123" />
+      </navPoint>
+      <navPoint id="navPoint-125" playOrder="125" class="chapter">
+        <navLabel>
+          <text>Binary System</text>
+        </navLabel>
+        <content src="item_064.html#navPoint_124" />
+      </navPoint>
+      <navPoint id="navPoint-126" playOrder="126" class="chapter">
+        <navLabel>
+          <text>Bitwise Operators, Part 1</text>
+        </navLabel>
+        <content src="item_020.html#navPoint_125" />
+      </navPoint>
+      <navPoint id="navPoint-127" playOrder="127" class="chapter">
+        <navLabel>
+          <text>Bitwise Operators, Part 2</text>
+        </navLabel>
+        <content src="item_098.html#navPoint_126" />
+      </navPoint>
+      <navPoint id="navPoint-128" playOrder="128" class="chapter">
+        <navLabel>
+          <text>Bit Shifting and Masking</text>
+        </navLabel>
+        <content src="item_089.html#navPoint_127" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-129" playOrder="129" class="chapter">
+      <navLabel>
+        <text>Chapter 19 – Trees, Part III</text>
+      </navLabel>
+      <content src="item_047.html#navPoint_128" />
+      <navPoint id="navPoint-130" playOrder="130" class="chapter">
+        <navLabel>
+          <text>AVL Trees</text>
+        </navLabel>
+        <content src="item_045.html#navPoint_129" />
+      </navPoint>
+      <navPoint id="navPoint-131" playOrder="131" class="chapter">
+        <navLabel>
+          <text>Rotation</text>
+        </navLabel>
+        <content src="item_133.html#navPoint_130" />
+      </navPoint>
+      <navPoint id="navPoint-132" playOrder="132" class="chapter">
+        <navLabel>
+          <text>Red-Black Trees</text>
+        </navLabel>
+        <content src="item_124.html#navPoint_131" />
+      </navPoint>
+      <navPoint id="navPoint-133" playOrder="133" class="chapter">
+        <navLabel>
+          <text>Splay Trees</text>
+        </navLabel>
+        <content src="item_044.html#navPoint_132" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-134" playOrder="134" class="chapter">
+      <navLabel>
+        <text>Chapter 20 – Spatial, Logic, Estimation</text>
+      </navLabel>
+      <content src="item_039.html#navPoint_133" />
+      <navPoint id="navPoint-135" playOrder="135" class="chapter">
+        <navLabel>
+          <text>Spatial Problems</text>
+        </navLabel>
+        <content src="item_025.html#navPoint_134" />
+      </navPoint>
+      <navPoint id="navPoint-136" playOrder="136" class="chapter">
+        <navLabel>
+          <text>Logic (Thought) Problems</text>
+        </navLabel>
+        <content src="item_073.html#navPoint_135" />
+      </navPoint>
+      <navPoint id="navPoint-137" playOrder="137" class="chapter">
+        <navLabel>
+          <text>Estimation</text>
+        </navLabel>
+        <content src="item_054.html#navPoint_136" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-138" playOrder="138" class="chapter">
+      <navLabel>
+        <text>Chapter 21 – Optimization</text>
+      </navLabel>
+      <content src="item_013.html#navPoint_137" />
+      <navPoint id="navPoint-139" playOrder="139" class="chapter">
+        <navLabel>
+          <text>The Performance Journey</text>
+        </navLabel>
+        <content src="item_111.html#navPoint_138" />
+      </navPoint>
+      <navPoint id="navPoint-140" playOrder="140" class="chapter">
+        <navLabel>
+          <text>Code Tuning</text>
+        </navLabel>
+        <content src="item_037.html#navPoint_139" />
+      </navPoint>
+      <navPoint id="navPoint-141" playOrder="141" class="chapter">
+        <navLabel>
+          <text>Optimization Review</text>
+        </navLabel>
+        <content src="item_128.html#navPoint_140" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-142" playOrder="142" class="chapter">
+      <navLabel>
+        <text>Interview Tips</text>
+      </navLabel>
+      <content src="item_141.html#navPoint_141" />
+    </navPoint>
+  </navMap>
+</ncx>
