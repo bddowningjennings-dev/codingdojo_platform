@@ -22,9 +22,9 @@ class Car(object):
     return self
 
 car_1 = Car(8000, '25mph', 'Full', '34mpg')
-car_1 = Car(9000, '35mph', 'Not Full', '32mpg')
-car_1 = Car(1100, '53mph', 'Half Full', '17mpg')
-car_1 = Car(28000, '5mph', 'Empty', ' 134mpg')
-car_1 = Car(8400, '54mph', 'Full', '54mpg')
-car_1 = Car(18000, '245mph', 'Extra Tank Full', '4mpg')
+car_2 = Car(9000, '35mph', 'Not Full', '32mpg')
+car_3 = Car(1100, '53mph', 'Half Full', '17mpg')
+car_4 = Car(28000, '5mph', 'Empty', ' 134mpg')
+car_5 = Car(8400, '54mph', 'Full', '54mpg')
+car_6 = Car(18000, '245mph', 'Extra Tank Full', '4mpg')
     
