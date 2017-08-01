@@ -1,25 +1,18 @@
 """makes a times table"""
 
 def mulTable(n):
-  row = 'x  '
-  for k in range(1, n + 1):
-    if k < 10:
-      row += str(k) + "  "
-    else:
-      row += str(k) + " "
-  print row
+  arr = ['x   ']
   for i in range(1, n + 1):
-    if i < 10:
-      row = str(i) + "  "
-    else:
-      row = str(i) + " "
-    for j in range(1, n + 1):
-      if i * j < 10:
-        row += str(i * j) + "   "
-      elif i * j < 100:
-        row += str(i * j) + "  "
-      else:
-        row += str(i * j) + "  "
-    print row
-
-mulTable(12) 
+    arr.append(str(i))
+    arr += ([' '] * (4 - len(str(i))))
+  print "".join(arr)
+  for  j in range(1, n + 1):
+    arr = []
+    arr.append(str(j))
+    arr += ([' '] * (4 - len(str(j))))
+    for k in range(1, n + 1):
+      arr.append(str(k * j))
+      arr += ([' '] * (4 - len(str(k * j))))
+    print "".join(arr)
+  
+mulTable(12)
