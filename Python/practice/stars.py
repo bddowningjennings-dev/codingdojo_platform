@@ -7,5 +7,6 @@ def stars(arr):
     else:
       print "".join(map(str, ['*'] * el))
 
-stars(["Test", 5])
+x = [4, "Tom", 1, "Michael", 5, 7, "Jimmy Smith"]
+stars(x)
 
