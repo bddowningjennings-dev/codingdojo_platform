@@ -2,12 +2,14 @@ from datetime import timedelta, datetime
 from time import strftime
 
 class Call(object):
+  counter = 0
   def __init__(self, name, number, reason,):
+    Call.counter += 1
     self.time = (datetime.utcnow() - timedelta(hours = 7)).strftime('%Y-%m-%d %H:%M:%S') 
     self.name = name.capitalize()
     self.number = str(number)
     self.reason = reason.lower()
-    self.id = self.name + '-' + self.number + '-' + self.time
+    self.id = str(Call.counter) + '-' + self.name + '-' + self.number + '-' + self.time
   def display (self):
     print '---- Call (' + str(self.id) + ') details ----'
     # for attr, value in self.__dict__.iteritems():
