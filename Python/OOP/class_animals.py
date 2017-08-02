@@ -46,6 +46,6 @@ dragon_1.walk(4).fly(2).display_health()
 
 penguin_1 = Animal('Phillip')
 
-# penguin_1.fly()
+# penguin_1.fly()  
 # penguin_1.pet()
 penguin_1.walk(4).display_health()
