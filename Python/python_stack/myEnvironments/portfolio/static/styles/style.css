@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: mediumaquamarine;
+  color: green;
+}
+h1 {
+  padding: 80px;
+  background-color: mediumaquamarine;
+  color: pink;
+}
