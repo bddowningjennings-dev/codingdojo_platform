@@ -1,0 +1,21 @@
+input {
+  margin: 10px;
+  display:  inline-block;
+  width: 400px;
+}
+body {
+  background-color: mediumaquamarine;
+}
+.comment {
+  height: 100px;
+}
+label {
+  display: inline-block;
+  padding-top: 15px;
+  width: 150px;
+  vertical-align: top;
+}
+.submit {
+  margin-left: 400px;
+  width: 100px;
+}
