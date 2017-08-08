@@ -2,19 +2,19 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
+colors = {'red': 50, 'green': 205, 'blue': 255}
 
 @app.route('/')
 
-def home(red = 50, green = 205, blue = 255):
-  return render_template('index.html', red = red, green = green, blue = blue)
+def home():
+  return render_template('index.html', red = colors['red'], green = colors['green'], blue = colors['blue'])
 
 @app.route('/process', methods=['POST'])
 
 def process():
-  return home(request.form['red'], request.form['green'], request.form['blue'])
-  # red = request.form['red']
-  # green = request.form['green']
-  # blue = request.form['blue']
-  # return redirect('/')
+  global colors
+  for key, val in request.form.items():
+    colors[key] = val
+  return redirect('/')
 
 app.run(debug=True)
