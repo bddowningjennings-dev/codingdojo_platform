@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+.wrapper {
+  background-color: mediumaquamarine;
+  display: inline-block;
+  width: 800px;
+  margin-left: 300px;
+  padding: 20px;
+}
+a {
+  color: royalblue;
+  text-decoration: none;
+  text-align:  center;
+  width: 80px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+  padding: 10px 10px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+a:first-of-type {
+  margin-left: 150px;
+}

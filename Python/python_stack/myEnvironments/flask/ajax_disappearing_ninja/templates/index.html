@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <title>Ninjas</title>     
+       <meta name="description" content="">   
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+     <script 
+			   src="http://code.jquery.com/jquery-3.2.1.slim.min.js" 
+			  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+        crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+
+    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename="style.css") }}">
+  </head>
+    <body>
+      <div class="wrapper">
+       <img src="{{ url_for( 'static', filename = 'photos/tmnt.png') }}" alt="all_turtles"> <br>
+        <form id='colors' action="/" method="POST">
+          <a href="#" name="red" value="red">red</a>
+          <a href="#" name="blue" value="blue">blue</a>
+          <a href="#" name="orange" value="orange">orange</a>
+          <a href="#" name="purple" value="purple">purple</a>
+        </form>
+      </div>
+  </body>
+</html>
