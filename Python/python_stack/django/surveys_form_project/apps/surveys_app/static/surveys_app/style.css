@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  width: 600px;
+  padding: 10px;
+  margin: 40px 0;
+  margin-left: 620px;
+  background-color: mediumaquamarine;
+}
+.btn {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  width: 600px;
+  padding: 10px;
+  margin: 40px 0;
+  margin-left: -60px; 
+  background-color: grey;
+  
+}
+input {
+  text-align: right;
+  padding-right: 10px;
+  width: 250px;
+  margin-top: 20px;
+}
+textarea.comment {
+  height: 400px;
+  text-align: left;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+label {
+  margin-top: 20px;
+  display: inline-block;
+  width: 150px;
+  vertical-align: top;
+}
+form, section {
+  display: inline-block;
+  margin-left: 700px;
+}
+a {
+  text-decoration: none;
+}
