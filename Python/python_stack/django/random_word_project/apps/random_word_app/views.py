@@ -1,24 +1,26 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.utils.crypto import get_random_string
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 def reset(request):
-    request.session['counter'] = 0
-    context = {
-        'counter': request.session['counter'],
-        'word': get_random_string(length=14),
-    }
-    return render(request, 'random_word_app/index.html', context)
-# Create your views here.
+    del request.session['counter']
+    del request.session['word']
+    return redirect('/')
+
 def index(request):
-    if request.session['counter'] == 0:
-        request.session['counter'] = 1
-    else:
-        request.session['counter'] += 1
+    try:
+        request.session['counter']
+    except:
+        request.session['counter'] = 0
+        request.session['word'] = ''
     context = {
         'counter': request.session['counter'],
-        'word': get_random_string(length=14),
+        'word': request.session['word'],
     }
     return render(request, 'random_word_app/index.html', context)
-# Create your views here.
+
+def generate(request):
+    request.session['counter'] += 1
+    request.session['word'] = get_random_string(length=14)
+    return redirect('/')
