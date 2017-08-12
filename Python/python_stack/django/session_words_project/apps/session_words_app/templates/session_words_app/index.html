@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Index</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <link rel='stylesheet' type='text/css' href='{% static "session_words_app/style.css" %}' />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="form-wrapper">
+      <h1>Add a new word</h1>
+      <form action='/add_word' method="POST">
+        {% csrf_token %}
+        <input type="hidden" name='type' value='new_word'>
+        <input class="btn text" type="text" name='word' placeholder="enter word">
+        <h4>Pick a color</h4><br>
+        <input type="radio" class="radio" name='color' value='red' checked='checked'> Red<br>
+        <input type="radio" class="radio" name='color' value='green'> Green<br>
+        <input type="radio" class="radio" name='color' value='blue'> Blue<br><br>
+        <input type="checkbox" name='big'> Show in BIG font<br>
+        <input class='btn' type="submit" value="Submit"><br>
+      </form>
+
+    </div>
+    <div class="session-wrapper">
+      <a href="/clear" class='btn'>Clear</a><br>
+      <ul>
+        {% for word in request.session.words %}
+          {{ word | safe }}<br>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </body>
+</html>
