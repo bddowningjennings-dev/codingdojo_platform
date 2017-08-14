@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  width: 600px;
+  padding: 10px;
+  margin: 40px 0;
+  margin-left: 620px;
+  background-color: mediumaquamarine;
+}
+.btn {
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  width: 600px;
+  padding: 10px;
+  margin: 40px 0;
+  margin-left: 620px;
+  background-color: grey;
+  
+}
