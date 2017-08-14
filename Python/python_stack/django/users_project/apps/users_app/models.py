@@ -16,6 +16,9 @@ class User(models.Model):
   updated_at = models.DateField(auto_now=True)
   objects = UserManager()
 
+  def __repr__(self):
+    return 'first_name = "{}",\nlast_name = "{}",\nemail_address = "{}",\nage = {}'.format(self.first_name, self.last_name, self.email_address, str(self.age))
+
   def validateEmail(self):
     from django.core.validators import validate_email
     try:
