@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Index</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% load static %}
+    <link rel='stylesheet' type='text/css' href='{% static "user_app/style.css" %}' />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="new">New User</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted"></h3>
+      <div class="jumbotron"><h1>User ID: {{ id | safe }}</h1></div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">Full Name: {{ user.first_name | safe}} {{ user.last_name | safe}}</div>
+          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-8">Email: {{ user.email | safe}}</div>
+          <div class="col-md-2"></div>
+          Created at: {{ user.created_at }}<br>
+          <div class="col-md-5"></div>
+          <div class="col-md-2 link">
+            <ul class="nav nav-pills float-right">
+              <li class="nav-item">
+                <a class="nav-link active" href={{id}}/edit>Edit <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href={{id}}/destroy>Delete</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
