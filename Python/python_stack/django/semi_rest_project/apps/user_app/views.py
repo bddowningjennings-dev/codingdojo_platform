@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from .models import User
+from django.contrib.messages import error
 from django.shortcuts import render, HttpResponse, redirect
 
 def new(request):
@@ -21,12 +22,18 @@ def show(request, user_id):
         }
         return render(request, 'user_app/show.html', context)
     elif request.method == 'POST':
+        errors = User.objects.validate(request.POST)
+        if len(errors):
+            for field, message in errors.iteritems():
+                error(request, message, extra_tags=field)
+            
+            return redirect('/users/new')
         user = User.objects.get(id=user_id)
         user.first_name = request.POST['first_name']
         user.last_name = request.POST['last_name']
         user.email = request.POST['email']
         user.save()
-        return redirect('/'+user_id)
+        return redirect('/users/{}'.format(user_id))
 
 def edit(request, user_id):
     context = {
@@ -43,10 +50,18 @@ def destroy(request, user_id):
     return redirect('/')
 
 def create(request):
+    errors = User.objects.validate(request.POST)
+    print '\n' + str(len(errors))
+    if len(errors):
+        for field, message in errors.iteritems():
+            error(request, message, extra_tags=field)
+        print 'error'
+        return redirect('/users/new')
+
     user = User()
     user.first_name = request.POST['first_name']
     user.last_name = request.POST['last_name']
     user.email = request.POST['email']
     user.save()
-    return redirect('/user')
+    return redirect('/users/{}'.format(user.id))
 # Create your views here.

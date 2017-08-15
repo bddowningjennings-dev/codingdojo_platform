@@ -13,6 +13,7 @@
   </head>
   <body>
     <div class="container">
+
       <nav>
         <ul class="nav nav-pills float-right">
           <li class="nav-item">
@@ -22,8 +23,15 @@
         </ul>
       </nav>
       <h1 class="text-muted">Add New User</h1>
+            {% if messages %}
+            <div class="messages">
+                {% for message in messages %}
+                <p{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</p>
+                {% endfor %}
+            </div>
+            {% endif %}
       <div class="container col-md-7">
-        <form action="/user/create" method="POST">
+        <form action="/users/create" method="POST">
           {% csrf_token %}
           <div class="form-group row">
             <label for="first_name" class="col-sm-2 col-form-label">First Name</label>
